@@ -1,7 +1,7 @@
 # The Topology of the Meta: Spectral Graph Theory in League of Legends
 
 ## Project Overview
-This project applies **Spectral Graph Theory** to a dataset of **185,000+ Ranked Matches** from Season 14 in North America to mathematically illustrate the structure of the League of Legends meta.
+This project applies **Spectral Graph Theory** to a dataset of **185,000+ Ranked Matches** from Season 15 in North America to mathematically illustrate the structure of the League of Legends meta.
 
 Instead of accepting Riot Games' predefined roles (Mage, Fighter, Tank), this project constructs a "Synergy Graph" based on statistical lift. By computing the **Graph Laplacian** and extracting its **Eigenvectors**, we can uncover hidden "Draft Archetypes" and the fundamental mathematical divides of the game.
 
@@ -68,7 +68,7 @@ Using the synergy graph and K-Means clustering with 8 clusters, I was able to sp
   * **Mid:** Ahri, Aurelion Sol, Cassiopeia, Irelia, Katarina, Lissandra, Neeko, Orianna, Veigar
   * **ADC:** Aurelion Sol, Cassiopeia, Jinx, Kalista, Smolder, Vayne, Veigar
   * **Support:** Maokai, Milio, Neeko, Pyke, Soraka
-  * Similar to the previous cluster, this one also confuses with some infamous earlygame powerhouses (Irelia, Volibear, Katarina, Kalista, Pyke) mixed in with late game scaling superstars (Aurelion Sol, Cassiopeia, Jinx, Maokai, Milio, Orianna, Smolder, Soraka, Vayne, Veigar). These are mixed together with some generalist enablers (Aatrox, Ahri, K'Sante, Lissandra, Neeko). This cluster aims to win through having a stable ground in some lane(s) with a consistent enabler or strong early pick, with one or two "inevitable" late game scalers that will take over the game as long as it can stall. The early game champs are the bridge to allow the scalers to cross into the late game. This cluster's performance is similar to Cluster 5, although a bit weaker overall. There is a general consensus that scaling champions should be strong in average ELO, but that isn't fully reflected in the data. This discrepancy suggests that despite the theoretical power of scaling, the pace of the game in the current Season 14 meta possibly ends games before these champions reach their "inevitability" threshold, despite efforts to increase average game length.
+  * Similar to the previous cluster, this one also confuses with some infamous earlygame powerhouses (Irelia, Volibear, Katarina, Kalista, Pyke) mixed in with late game scaling superstars (Aurelion Sol, Cassiopeia, Jinx, Maokai, Milio, Orianna, Smolder, Soraka, Vayne, Veigar). These are mixed together with some generalist enablers (Aatrox, Ahri, K'Sante, Lissandra, Neeko). This cluster aims to win through having a stable ground in some lane(s) with a consistent enabler or strong early pick, with one or two "inevitable" late game scalers that will take over the game as long as it can stall. The early game champs are the bridge to allow the scalers to cross into the late game. This cluster's performance is similar to Cluster 5, although a bit weaker overall. There is a general consensus that scaling champions should be strong in average ELO, but that isn't fully reflected in the data. This discrepancy suggests that despite the theoretical power of scaling, the pace of the game in the current Season 15 meta possibly ends games before these champions reach their "inevitability" threshold, despite efforts to increase average game length.
 * **Cluster 7: The Self-Defined Comp**
   * **Jungle:** Bel'Veth, Diana, Master Yi, Shaco, Talon, Vi, Viego
   * **Mid:** Anivia, Diana, Talon
